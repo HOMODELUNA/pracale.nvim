@@ -326,8 +326,8 @@ with_prefix("") {
         Operator = { fg = colors.orange, italic = config.italic.operators },
         Keyword = { link = "PracaleRed" },
         Identifier = { fg = "#c6e6e8" },
-        Function = { fg = "#ee3f40", bold = true },
-        BuiltinFunction = { fg = "#f03031", bold = true },
+        Function = { fg = "#ee3f40", bold=false}, -- 暂时去除bold
+        BuiltinFunction = { fg = "#f03031", bold=false}, -- 暂时去除bold
 
         PreProc = { link = "PracaleAqua" },
         Include = { link = "PracaleAqua" },
@@ -1197,6 +1197,7 @@ with_prefix("") {
         ["@lsp.type.type"] = { link = "@type" },
         ["@lsp.type.typeParameter"] = { link = "@type.definition" },
         ["@lsp.type.variable"] = { link = "@variable" },
+        ["@lsp.type.member.javascript"] = { link = "Identifier" },
 }
 
 
