@@ -1183,7 +1183,7 @@ with_prefix("") {
         ["@lsp.type.event"] = { link = "@type" },
         ["@lsp.type.enumMember"] = { link = "@constant" },
         ["@lsp.type.function"] = { link = "@function" },
-        ["@lsp.type.interface"] = { link = "@constructor" },
+        ["@lsp.type.interface"] = { link = "@type" },
         ["@lsp.type.keyword"] = { link = "@keyword" },
         ["@lsp.type.macro"] = { link = "@macro" },
         ["@lsp.type.method"] = { link = "@method" },
