@@ -727,6 +727,7 @@ with_prefix("") {
         typescriptDocTags = { link = "vimCommentTitle" },
         typescriptGlobalObjects = { link = "PracaleFg1" },
         typescriptParens = { link = "PracaleFg3" },
+        typescriptProp = { link = "Identifier" },
         typescriptOpSymbols = { link = "PracaleFg3" },
         typescriptHtmlElemProperties = { link = "PracaleFg1" },
         typescriptNull = { link = "PracalePurple" },
@@ -1198,6 +1199,7 @@ with_prefix("") {
         ["@lsp.type.typeParameter"] = { link = "@type.definition" },
         ["@lsp.type.variable"] = { link = "@variable" },
         ["@lsp.type.member.javascript"] = { link = "Identifier" },
+        ["@lsp.type.member"] = { link = "Identifier" },
 }
 
 
