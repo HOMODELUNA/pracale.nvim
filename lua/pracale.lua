@@ -887,7 +887,7 @@ with_prefix("") {
         jsonKeyword = { link = "PracaleGreen" },
         jsonQuote = { link = "PracaleGreen" },
         jsonBraces = { link = "PracaleFg1" },
-        jsonString = { link = "PracaleFg1" },
+        jsonString = { link = "String" },
 }
 with_prefix("") {
         mailQuoted1 = { link = "PracaleAqua" },
