@@ -90,6 +90,7 @@ Pracale.palette = {
         bright_green = "#b8ff26",
 
         yellow = "#fabd2f",
+        intermediate_yellow = "#fabd2f",
         bright_yellow = "#f8d86a",
 
         blue = "#349de4",
@@ -886,7 +887,7 @@ with_prefix("") {
 }
 with_prefix("") {
         jsonKeyword = { link = "PracaleGreen" },
-        jsonQuote = { link = "PracaleGreen" },
+        jsonQuote = { fg = Pracale.pallete.intermediate_yellow},
         jsonBraces = { link = "PracaleFg1" },
         jsonString = { link = "String" },
 }
