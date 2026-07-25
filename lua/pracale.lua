@@ -655,6 +655,8 @@ with_prefix("") {
         pythonBuiltin = { link = "Type" },
         pythonBuiltinObj = { link = "Type" },
         pythonBuiltinFunc = { link = "PracaleOrange" },
+        pythonClass = { link = "Type" },
+        pythonAttribute = { link = "Identifier" },
         pythonFunction = { link = "Function" },
         pythonDecorator = { link = "PracaleRed" },
         pythonInclude = { link = "PracaleBlue" },
