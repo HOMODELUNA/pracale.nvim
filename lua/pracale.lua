@@ -647,6 +647,7 @@ with_prefix("") {
 with_prefix("") {
 
         cOperator = { link = "PracalePurple" },
+        cBlock = { link = "Identifier" },
         cppOperator = { link = "PracalePurple" },
         cStructure = { link = "Keyword" },
 
