@@ -857,6 +857,8 @@ with_prefix("") {
         ConId = {link = "Type"},
         haskellIdentifier = { link = "Identifier" },
         VarId = {link = "Identifier"},
+        hsImportGroup = {link = "ModuleOrNamespace"},
+        hsImportModuleName = {link = "ModuleOrNamespace"},
         haskellSeparator = { link = "PracaleFg4" },
         haskellDelimiter = { link = "PracaleOrange" },
         haskellOperators = { link = "PracalePurple" },
