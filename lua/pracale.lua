@@ -850,8 +850,10 @@ with_prefix("") {
         markdownIdDeclaration = { link = "markdownLinkText" },
 }
 with_prefix("") {
-        haskellType = { link = "PracaleBlue" },
-        haskellIdentifier = { link = "PracaleAqua" },
+        haskellType = { link = "Type" },
+        ConId = {link = "Type"},
+        haskellIdentifier = { link = "Identifier" },
+        VarId = {link = "Identifier"},
         haskellSeparator = { link = "PracaleFg4" },
         haskellDelimiter = { link = "PracaleOrange" },
         haskellOperators = { link = "PracalePurple" },
