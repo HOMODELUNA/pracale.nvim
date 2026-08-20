@@ -1074,6 +1074,10 @@ with_prefix("") {
 }
 
 with_prefix("") {
+        sqlKeyword = { link = "Keyword" },
+}
+
+with_prefix("") {
         ["@comment"] = { link = "Comment" },
         ["@none"] = { bg = "NONE", fg = "NONE" },
         ["@preproc"] = { link = "PreProc" },
@@ -1152,7 +1156,7 @@ with_prefix("") {
         ["@markup.environment.name"] = { link = "Type" },
         ["@markup.link"] = { link = "Underlined" },
         ["@markup.link.label"] = { link = "SpecialChar" },
-        ["@markup.list"] = { link = "Delimiter" },
+        ["@markup.list"] = { link = "StorageClass" },
         ["@markup.list.checked"] = { link = "PracaleGreen" },
         ["@markup.list.unchecked"] = { link = "PracaleGray" },
         ["@comment.todo"] = { link = "Todo" },
