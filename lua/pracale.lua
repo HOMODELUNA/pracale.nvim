@@ -1066,6 +1066,12 @@ with_prefix("") {
         DiffviewFilePanelInsertions = { link = "PracaleGreenBold" },
         DiffviewFilePanelDeletions = { link = "PracaleRedBold" },
 }
+
+with_prefix("") {
+        dockerfileFrom = { link = "Type" },
+        dockerfileShell = { link = "String" },
+}
+
 with_prefix("") {
         ["@comment"] = { link = "Comment" },
         ["@none"] = { bg = "NONE", fg = "NONE" },
