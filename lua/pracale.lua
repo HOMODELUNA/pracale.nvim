@@ -1070,6 +1070,7 @@ with_prefix("") {
 with_prefix("") {
         dockerfileFrom = { link = "Type" },
         dockerfileShell = { link = "String" },
+        dockerfileValue = { link = "Identifier" },
 }
 
 with_prefix("") {
@@ -1162,6 +1163,7 @@ with_prefix("") {
         ["@diff.minus"] = { link = "diffRemoved" },
         ["@diff.delta"] = { link = "diffChanged" },
         ["@module"] = { link = "ModuleOrNamespace" },
+        ["@module.builtin.lua"] = { link = "ModuleOrNamespace" },
         ["@namespace"] = { link = "ModuleOrNamespace" },
         ["@symbol"] = { link = "Identifier" },
         ["@text"] = { link = "PracaleFg1" },
