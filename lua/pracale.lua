@@ -1097,6 +1097,7 @@ with_prefix("") {
         ["@method"] = { link = "Function" },
         ["@method.call"] = { link = "Function" },
         ["@constructor"] = { link = "Special" },
+        ["@constructor.haskell"] = { link = "StorageClass" },
         ["@parameter"] = { link = "Identifier" },
         ["@keyword"] = { link = "Keyword" },
         ["@keyword.conditional"] = { link = "Conditional" },
