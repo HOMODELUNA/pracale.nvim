@@ -655,24 +655,11 @@ with_prefix("") {
 with_prefix("") {
         pythonBuiltin = { link = "Type" },
         pythonBuiltinObj = { link = "Type" },
-        pythonBuiltinFunc = { link = "PracaleOrange" },
         pythonClass = { link = "Type" },
         pythonAttribute = { link = "Identifier" },
         pythonFunction = { link = "Function" },
-        pythonDecorator = { link = "PracaleRed" },
-        pythonInclude = { link = "PracaleBlue" },
-        pythonImport = { link = "PracaleBlue" },
-        pythonRun = { link = "PracaleBlue" },
-        pythonCoding = { link = "PracaleBlue" },
-        pythonOperator = { link = "PracaleRed" },
-        pythonException = { link = "PracaleLightPurple" },
-        pythonExceptions = { link = "PracaleLightPurple" },
-        pythonBoolean = { link = "Literal" },
-        pythonDot = { link = "PracaleFg3" },
-        pythonConditional = { link = "PracaleRed" },
-        pythonRepeat = { link = "PracaleRed" },
-        pythonDottedName = { link = "PracaleGreenBold" },
-
+        pythonBoolean = { link = "Special" },
+        pythonConstant = { link = "Special" },
 }
 with_prefix("") {
         cssBraces = { link = "PracaleBlue" },
