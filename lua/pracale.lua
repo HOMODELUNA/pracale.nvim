@@ -437,6 +437,11 @@ with_prefix("") {
         DirvishArg = { link = "PracaleYellow" },
 
 }
+
+with_prefix("") {
+        makeCommands = {link = "Normal"},
+}
+
 with_prefix("") {
         netrwDir = { link = "PracaleAqua" },
         netrwClassify = { link = "PracaleAqua" },
@@ -695,7 +700,6 @@ with_prefix("") {
 }
 with_prefix("") {
         javaScriptBraces = { link = "PracaleFg1" },
-        javaScriptFunction = { link = "PracaleAqua" },
         javaScriptIdentifier = { link = "PracaleRed" },
         javaScriptMember = { link = "PracaleBlue" },
         javaScriptNumber = { link = "PracalePurple" },
@@ -755,6 +759,8 @@ with_prefix("") {
         rubyStringDelimiter = { link = "String" },
         rubyInterpolationDelimiter = { link = "PracaleAqua" },
         rubyDefinedOperator = { link = "rubyKeyword" },
+        rubyDoBlockParameterList = { link = "Identifier" },
+        rubyKeywordAsMethod = { link = "Identifier" },
 }
 with_prefix("") {
 
@@ -884,6 +890,7 @@ with_prefix("") {
         jsonQuote = { fg = Pracale.palette.intermediate_yellow},
         jsonBraces = { link = "PracaleFg1" },
         jsonString = { link = "String" },
+        jsonNull = { link = "Special" },
 }
 with_prefix("") {
         mailQuoted1 = { link = "PracaleAqua" },
